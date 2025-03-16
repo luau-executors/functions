@@ -1,4 +1,4 @@
-getgenv().get_connections(rl) = function()
+getgenv().getconnections(rl) = function()
     -- check if the first argument is a userdata
     if type(rl) ~= "userdata" then
         error("expected userdata as the first argument", 2)
